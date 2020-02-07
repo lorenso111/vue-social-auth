@@ -47,6 +47,19 @@ export default {
   },
 
   providers: {
+    amazon: {
+      name: 'amazon',
+      url: '/auth/amazon',
+      authorizationEndpoint: 'https://www.amazon.com/ap/oa',
+      redirectUri: window.location.origin,
+      requiredUrlParams: ['scope'],
+      scope: ['email'],
+      scopeDelimiter: ',',
+      display: 'popup',
+      oauthType: '2.0',
+      popupOptions: { width: 580, height: 400 }
+    },
+
     facebook: {
       name: 'facebook',
       url: '/auth/facebook',
