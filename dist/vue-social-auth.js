@@ -1,5 +1,5 @@
 /*!
- * vue-social-auth v1.4.3
+ * vue-social-auth v1.4.4
  * https://github.com/diadal/vue-social-auth
  * Released under the MIT License.
  */
@@ -481,7 +481,7 @@ var defaultOptions = {
       scopeDelimiter: ',',
       display: 'popup',
       oauthType: '2.0',
-      popupOptions: { width: 580, height: 400 }
+      popupOptions: { width: 400, height: 620 }
     },
 
     facebook: {

@@ -57,7 +57,7 @@ export default {
       scopeDelimiter: ',',
       display: 'popup',
       oauthType: '2.0',
-      popupOptions: { width: 580, height: 400 }
+      popupOptions: { width: 400, height: 620 }
     },
 
     facebook: {
