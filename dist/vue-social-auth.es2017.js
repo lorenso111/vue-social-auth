@@ -471,7 +471,7 @@ var defaultOptions = {
       authorizationEndpoint: 'https://www.amazon.com/ap/oa',
       redirectUri: window.location.origin,
       requiredUrlParams: ['scope'],
-      scope: ['email'],
+      scope: ['profile'],
       scopeDelimiter: ',',
       display: 'popup',
       oauthType: '2.0',
